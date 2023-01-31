@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         findViewById<Button>(R.id.buttonStart).setOnClickListener {
-            var intent= Intent(this, Game::class.java)
+            val intent= Intent(this, Game::class.java)
             startActivity(intent)
         }
     }

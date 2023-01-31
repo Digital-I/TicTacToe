@@ -87,4 +87,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/reButton"
+        android:layout_width="100dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cell"
+        app:layout_constraintVertical_bias="0.241"
+        app:srcCompat="@android:drawable/ic_popup_sync" />
 </androidx.constraintlayout.widget.ConstraintLayout>
